@@ -4,6 +4,11 @@
  * Framework documentation: https://vuetifyjs.com`
  */
 
+// fontawsome
+import { aliases, fa } from 'vuetify/iconsets/fa'
+import { mdi } from 'vuetify/iconsets/mdi'
+import '@fortawesome/fontawesome-free/css/all.css'
+
 // Styles
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
@@ -23,4 +28,14 @@ export default createVuetify({
       },
     },
   },
+
+  icons: {
+    defaultSet: 'fa' || 'mdi',
+    aliases,
+    sets: {
+      fa,
+      mdi,
+    }
+  },
+  
 })
