@@ -3,7 +3,8 @@
  *
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
-
+// autres
+import router from '@/routes/index'
 // Components
 import App from './App.vue'
 
@@ -16,5 +17,7 @@ import { registerPlugins } from '@/plugins'
 const app = createApp(App)
 
 registerPlugins(app)
+
+app.use(router)
 
 app.mount('#app')
