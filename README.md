@@ -45,3 +45,6 @@ pnpm build
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+
+### le tuto
+https://www.youtube.com/watch?v=CSIRa_E79bU
