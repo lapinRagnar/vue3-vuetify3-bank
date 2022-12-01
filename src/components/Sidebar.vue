@@ -5,7 +5,7 @@
     color="#524eed"
     rail
     v-model="drawer"
-    rail-width="150"
+    rail-width="65"
   >
     <v-list>
       <v-list-item      >
@@ -20,25 +20,34 @@
     >
     </v-list>
 
+
+
+    <v-list>
+
+
+
+    </v-list>
+
+
+    <div style="position: absolute; bottom: 0;" >
+
+      <v-list-item>
+        <v-btn color="transparent" size="25">
+          <v-icon>fas fa-cog</v-icon>
+        </v-btn>
+      </v-list-item>
+
+      <v-list-item>
+        <v-btn color="transparent" size="25" >
+          <v-icon>fas fa-sign-out-alt</v-icon>
+        </v-btn>
+      </v-list-item>
+
+    </div>
+
   </v-navigation-drawer>
 
 
-
-  <!-- <v-navigation-drawer
-    v-model="drawer"
-  >
-    <div class="bg-red">hello</div>
-  </v-navigation-drawer> -->
-
-
-
-  <!-- <v-navigation-drawer
-    v-model="drawer"
-    color="#342445"
-
-  >
-
-  </v-navigation-drawer> -->
 </template>
 
 <script setup>
@@ -52,42 +61,42 @@
 
   const items = ref([
     {
-      title: 'titre 1',
+      title: '',
       value: 1,
       props: {
         prependIcon: 'fas fa-bars'
       }
     },
     {
-      title: 'titre 1',
+      title: '',
       value: 2,
       props: {
         prependIcon: 'far fa-compass'
       }
     },
     {
-      title: 'titre 1',
+      title: '',
       value: 3,
       props: {
         prependIcon: 'fas fa-wallet'
       }
     },
     {
-      title: 'titre 1',
+      title: '',
       value: 4,
       props: {
         prependIcon: 'far fa-comment-dots'
       }
     },
     {
-      title: 'titre 1',
+      title: '',
       value: 5,
       props: {
         prependIcon: 'far fa-calendar-alt'
       }
     },
     {
-      title: 'titre 1',
+      title: '',
       value: 6,
       props: {
         prependIcon: 'far fa-file-alt'
