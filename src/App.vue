@@ -1,7 +1,7 @@
 <template>
   <v-app>
 
-    <div>Bonjour</div>
+    <h3>{{ authStore.maVariablePinia }}</h3>
     <nav>
       <RouterLink class="mr-15" to="/" >home</RouterLink>
       <RouterLink to="/about" >About</RouterLink>
@@ -16,5 +16,9 @@
 <script setup>
 
   import { RouterView } from 'vue-router'
+  import { useAuthStore } from '@/stores/auth'
+
+  const authStore = useAuthStore()
+  console.log('authStore', authStore.maVariablePinia)
 
 </script>
