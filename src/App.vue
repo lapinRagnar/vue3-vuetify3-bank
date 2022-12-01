@@ -3,10 +3,11 @@
 
   <v-app id="inspire" theme="dark">
 
+    <Navbar />
     <Sidebar />
 
-    <v-container>
-      <Navbar />
+    <v-main>
+
       <v-row>
 
         <v-col cols="12" sm="8">
@@ -34,7 +35,7 @@
 
       </v-row>
 
-    </v-container>
+    </v-main>
 
   </v-app>
 
