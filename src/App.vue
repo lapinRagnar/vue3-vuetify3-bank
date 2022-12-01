@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="inspire" :style="{ background: $vuetify.theme.themes.dark.background}">
 
     <h3>{{ authStore.maVariablePinia }}</h3>
     <nav>
