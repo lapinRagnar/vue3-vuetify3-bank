@@ -1,3 +1,6 @@
+# demo - visite l'application sur cette adresse
+vue3-vuetify3-bank.web.app
+
 # default
 
 ## Project setup
