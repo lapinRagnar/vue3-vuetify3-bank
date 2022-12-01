@@ -62,3 +62,16 @@
   console.log('authStore', authStore.maVariablePinia)
 
 </script>
+
+<style lang="scss">
+
+  .v-btn.without-uppercase {
+    text-transform: none !important;
+  }
+
+  .v-btn:not(.v-btn--round).v-size--small {
+    min-width: 30px !important;
+    padding: 0 5px !important;
+  }
+
+</style>
