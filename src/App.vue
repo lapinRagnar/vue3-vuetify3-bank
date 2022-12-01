@@ -1,4 +1,6 @@
 <template>
+
+
   <v-app id="inspire" theme="dark">
 
     <Sidebar />
@@ -34,9 +36,8 @@
 
     </v-container>
 
-
-
   </v-app>
+
 </template>
 
 <script setup>
@@ -51,7 +52,7 @@
   import Money from '@/components/Money.vue'
   import Payment from '@/components/Payment.vue'
   import Card from '@/components/Card.vue'
-  import { onMounted } from 'vue'
+  import { onMounted, ref } from 'vue'
 
   onMounted(() => {
     const theme = useTheme()
@@ -60,6 +61,8 @@
 
   const authStore = useAuthStore()
   console.log('authStore', authStore.maVariablePinia)
+
+  const drawer = ref(null)
 
 </script>
 
