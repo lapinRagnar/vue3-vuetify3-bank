@@ -22,19 +22,20 @@
       <v-icon color="#878A94" icon="far fa-envelope"></v-icon>
     </v-btn>
 
-    <v-badge
-      bordered
-      color="red"
-      content="2"
-      class="mx-5"
-    >
-      <v-icon color="#878A94">far fa-bell</v-icon>
-    </v-badge>
+    <v-btn stacked>
+
+      <v-badge
+        bordered
+        color="red"
+        content="2"
+      >
+        <v-icon color="#878A94">far fa-bell</v-icon>
+      </v-badge>
+
+    </v-btn>
 
 
     <v-btn>
-
-
 
       <v-avatar
         size="30"
@@ -47,8 +48,6 @@
         <p class="text-green mr-10">lapinRagnar</p>
       </div>
 
-
-
     </v-btn>
 
 
@@ -59,7 +58,3 @@
 <script setup>
 
 </script>
-
-<style lang="scss">
-
-</style>
