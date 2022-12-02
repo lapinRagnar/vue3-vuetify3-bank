@@ -22,11 +22,11 @@
             <span class="caption text-grey" >Sales</span>
           </v-toolbar>
           <v-toolbar color="rgba(0, 0, 0, 0)" class="mt-n8">
-            <h4 class="" >96,50%</h4>
+            <h4 class="" >6,50%</h4>
             <span class="caption text-grey" >+ 6,7%</span>
           </v-toolbar>
           <v-toolbar color="rgba(0, 0, 0, 0)" class="mt-n12">
-            <v-progress-linear color="orange" height="6" model-value="45" stream>
+            <v-progress-linear color="orange" height="6" model-value="6" stream>
             </v-progress-linear>
           </v-toolbar>
           <v-card-text class="pt-0 mt-n5 text-center ">
@@ -34,7 +34,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      
+
       <v-col cols="12" sm="4" class="pa-10">
         <v-card color="#242426" class="rounded-lg mx-2 pa-5">
           <v-toolbar color="rgba(0, 0, 0, 0)" class="mt-n7">
@@ -45,7 +45,7 @@
             <span class="caption text-grey" >+ 6,7%</span>
           </v-toolbar>
           <v-toolbar color="rgba(0, 0, 0, 0)" class="mt-n12">
-            <v-progress-linear color="orange" height="6" model-value="45" stream>
+            <v-progress-linear color="orange" height="6" model-value="96" stream>
             </v-progress-linear>
           </v-toolbar>
           <v-card-text class="pt-0 mt-n5 text-center ">
